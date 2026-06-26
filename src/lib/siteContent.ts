@@ -8,7 +8,7 @@ export const siteContent = {
     subtext: "Drop-in classes, experienced teachers, and a welcoming community in the heart of Melbourne. No pretense, just real movement and breath.",
     primaryCTA: "Book a class",
     secondaryCTA: "New here? Start with our beginner course →",
-    image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=1600&q=80"
+    image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=1600&q=80"
   },
 
   schedule: {
@@ -159,17 +159,44 @@ export const siteContent = {
       weekday: "Monday–Friday: 6:30 AM – 8:30 PM",
       weekend: "Saturday–Sunday: 8:00 AM – 5:00 PM"
     },
-    mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.143920788895!2d144.9772!3d-37.8008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zM37CsDQ4JzAyLjkiUyAxNDTCsDU4JzM3LjkiRQ!5e0!3m2!1sen!2sau!4v1234567890"
+    mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.143920788895!2d144.9772!3d-37.8008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzbCsDQ4JzAyLjkiUyAxNDTCsDU4JzM3LjkiRQ!5e0!3m2!1sen!2sau!4v1234567890"
+  },
+
+  testimonials: {
+    heading: "What students say",
+    items: [
+      {
+        quote: "I've tried a few yoga studios around Melbourne and this is the only one where I felt genuinely welcomed as a beginner. Sarah's teaching is clear and patient, and the space feels calm without being precious.",
+        author: "Alex R.",
+        role: "Student since 2022"
+      },
+      {
+        quote: "The Foundations course was exactly what I needed. I'd always been intimidated by yoga, but the small group setting and Emma's teaching style made it accessible and enjoyable. Now I come to classes twice a week.",
+        author: "Priya K.",
+        role: "Beginner course graduate"
+      },
+      {
+        quote: "After a shoulder injury, I needed somewhere that understood body limitations. James worked with me in private sessions and now I'm back in regular classes, moving better than before. Highly recommend.",
+        author: "Michael T.",
+        role: "Private session client"
+      }
+    ]
   },
 
   footer: {
-    acknowledgment: "We acknowledge the Wurundjeri Woi Wurrung people of the Kulin Nation as the traditional custodians of the land on which our studio stands. We pay our respects to their Elders past, present, and emerging.",
+    tagline: "Yoga for everyday life",
+    description: "A neighbourhood studio in Fitzroy offering drop-in classes, private sessions, and beginner courses. All levels welcome.",
+    quickLinks: [
+      { label: "Class Schedule", href: "#schedule" },
+      { label: "Pricing", href: "#offerings" },
+      { label: "Teachers", href: "#instructors" },
+      { label: "Beginners", href: "#beginners" },
+      { label: "Find Us", href: "#location" }
+    ],
     social: {
-      instagram: "https://instagram.com/localyogamelb",
+      instagram: "https://instagram.com/localyogamelbourne",
       facebook: "https://facebook.com/localyogamelbourne"
     },
     copyright: "© 2024 Local Yoga Studio Melbourne. All rights reserved."
   }
-} as const;
-
-export type SiteContent = typeof siteContent;
+};
