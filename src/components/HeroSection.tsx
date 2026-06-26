@@ -19,7 +19,7 @@ export default function HeroSection() {
   return (
     <section
       ref={sectionRef}
-      className="relative pt-32 pb-20 md:pt-40 md:pb-28 bg-background overflow-hidden"
+      className="relative pt-20 pb-20 md:pt-24 md:pb-28 bg-background overflow-hidden"
     >
       {/* Decorative gradient */}
       <div
